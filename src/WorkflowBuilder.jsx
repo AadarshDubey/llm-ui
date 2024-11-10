@@ -13,13 +13,13 @@ const NodeTypes = {
 
 const NodeIcons = {
   [NodeTypes.INPUT]: {
-    logo: "/src/assets/input.svg"
+    logo: "./src/assets/input.svg"
   },
   [NodeTypes.LLM]: {
-    logo: "/src/assets/llm.svg"
+    logo: "./src/assets/llm.svg"
   },
   [NodeTypes.OUTPUT]: {
-    logo: "/src/assets/output.svg"
+    logo: "./src/assets/output.svg"
   }
 };
 
@@ -381,7 +381,7 @@ const WorkflowBuilder = () => {
 
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b px-4 py-1 flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/src/assets/logo.svg" alt="Logo" className="h-[33px] ml-4 mr-2 w-[33px] object-contain" />
+          <img src="./src/assets/logo.svg" alt="Logo" className="h-[33px] ml-4 mr-2 w-[33px] object-contain" />
           <span className="font-bold text-[18px] mt-1">OPENAGI</span>
         </div>
         <Button 
@@ -403,7 +403,7 @@ const WorkflowBuilder = () => {
                 className="w-full justify-start gap-2"
                 variant="outline"
               >
-                <img src="/src/assets/input.svg" alt="Input" className="w-5 h-5" />
+                <img src="./src/assets/input.svg" alt="Input" className="w-5 h-5" />
                 Input Node
               </Button>
               <Button 
@@ -411,7 +411,7 @@ const WorkflowBuilder = () => {
                 className="w-full justify-start gap-2"
                 variant="outline"
               >
-                <img src="/src/assets/llm.svg" alt="LLM" className="w-5 h-5" />
+                <img src="./src/assets/llm.svg" alt="LLM" className="w-5 h-5" />
                 LLM Node
               </Button>
               <Button 
@@ -419,7 +419,7 @@ const WorkflowBuilder = () => {
                 className="w-full justify-start gap-2"
                 variant="outline"
               >
-                <img src="/src/assets/output.svg" alt="Output" className="w-5 h-5" />
+                <img src="./src/assets/output.svg" alt="Output" className="w-5 h-5" />
                 Output Node
               </Button>
             </div>
