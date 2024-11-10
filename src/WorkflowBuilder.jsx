@@ -13,13 +13,13 @@ const NodeTypes = {
 
 const NodeIcons = {
   [NodeTypes.INPUT]: {
-    logo: "./src/assets/input.svg"
+    logo: "/input.svg"
   },
   [NodeTypes.LLM]: {
-    logo: "./src/assets/llm.svg"
+    logo: "/llm.svg"
   },
   [NodeTypes.OUTPUT]: {
-    logo: ".src/assets/output.svg"
+    logo: "/output.svg"
   }
 };
 
@@ -398,30 +398,30 @@ const WorkflowBuilder = () => {
           <div className="p-4">
             <div className="font-semibold mb-4  ">Components</div>
             <div className="space-y-2.5">
-            <Button 
-                onClick={() => addNode(NodeTypes.INPUT)}
-                className="w-full justify-start gap-2"
-                variant="outline"
-              >
-                <img src="./src/assets/input.svg" alt="Input" className="w-5 h-5" />
-                Input Node
-              </Button>
-              <Button 
-                onClick={() => addNode(NodeTypes.LLM)}
-                className="w-full justify-start gap-2"
-                variant="outline"
-              >
-                <img src="./src/assets/llm.svg" alt="LLM" className="w-5 h-5" />
-                LLM Node
-              </Button>
-              <Button 
-                onClick={() => addNode(NodeTypes.OUTPUT)}
-                className="w-full justify-start gap-2"
-                variant="outline"
-              >
-                <img src="./src/assets/output.svg" alt="Output" className="w-5 h-5" />
-                Output Node
-              </Button>
+            <Button
+  onClick={() => addNode(NodeTypes.INPUT)}
+  className="w-full justify-start gap-2"
+  variant="outline"
+>
+  <img src="/input.svg" alt="Input" className="w-5 h-5" />
+  Input Node
+</Button>
+<Button
+  onClick={() => addNode(NodeTypes.LLM)}
+  className="w-full justify-start gap-2"
+  variant="outline"
+>
+  <img src="/llm.svg" alt="LLM" className="w-5 h-5" />
+  LLM Node
+</Button>
+<Button
+  onClick={() => addNode(NodeTypes.OUTPUT)}
+  className="w-full justify-start gap-2"
+  variant="outline"
+>
+  <img src="/output.svg" alt="Output" className="w-5 h-5" />
+  Output Node
+</Button>
             </div>
           </div>
           <div className="flex-1"></div>
