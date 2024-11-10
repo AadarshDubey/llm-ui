@@ -17,8 +17,9 @@ const NodeIcons = {
   },
   [NodeTypes.LLM]: {
     logo: "./src/assets/llm.svg"
-  ,
-  [NodeTypes.OUTPUT]:"/output.svg"
+  },
+  [NodeTypes.OUTPUT]: {
+    logo: ".src/assets/output.svg"
   }
 };
 
