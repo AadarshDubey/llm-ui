@@ -19,7 +19,7 @@ const NodeIcons = {
     logo: "./src/assets/llm.svg"
   },
   [NodeTypes.OUTPUT]: {
-    logo: "./src/assets/output.svg"
+    logo: "/public/assets/output.svg"
   }
 };
 
@@ -381,7 +381,7 @@ const WorkflowBuilder = () => {
 
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b px-4 py-1 flex justify-between items-center">
         <div className="flex items-center">
-          <img src="./src/assets/logo.svg" alt="Logo" className="h-[33px] ml-4 mr-2 w-[33px] object-contain" />
+          <img src="/public/logo.svg" alt="Logo" className="h-[33px] ml-4 mr-2 w-[33px] object-contain" />
           <span className="font-bold text-[18px] mt-1">OPENAGI</span>
         </div>
         <Button 
