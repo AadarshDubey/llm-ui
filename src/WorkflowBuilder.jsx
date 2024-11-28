@@ -379,19 +379,21 @@ const WorkflowBuilder = () => {
       )}
        
 
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b px-4 py-1 flex justify-between items-center">
-        <div className="flex items-center">
-          <img src="/logo.svg" alt="Logo" className="h-[33px] ml-4 mr-2 w-[33px] object-contain" />
-          <span className="font-bold text-[18px] mt-1">OPENAGI</span>
-        </div>
-        <Button 
-          onClick={executeWorkflow}
-          className="bg-green-600 mr-4 rounded-tl-lg w-[78px] h-[31px] p-[7px_15px] gap-1 hover:bg-green-700"
-        >
-          <Play className="w-4 h-4 mr-[5px]" />
-          Run
-        </Button>
-      </nav>
+       <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b px-4 py-1 flex justify-between items-center h-[60px]">
+  <div className="flex items-center">
+    <div className="flex justify-center items-center h-full">
+      <img src="/FF.svg" alt="Logo" className="h-[120px]  w-[120px] object-contain"  />
+    </div>
+    <span className="font-bold text-[18px] mt-1">FlowForge</span>
+  </div>
+  <Button 
+    onClick={executeWorkflow}
+    className="bg-green-600 mr-4 rounded-tl-lg w-[78px] h-[31px] p-[7px_15px] gap-1 hover:bg-green-700"
+  >
+    <Play className="w-4 h-4 mr-[5px]" />
+    Run
+  </Button>
+</nav>
 
       <div className="flex mt-14 h-full">
         <Card className="fixed left-7 top-20 bottom-5 w-64 shadow-lg z-40 flex flex-col">
